@@ -1,4 +1,6 @@
 import "dotenv/config";
 import { Server } from "./server.js";
 
-new Server().start();
+const app = new Server();
+
+app.start();
